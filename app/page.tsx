@@ -1,0 +1,27 @@
+import Background from "@/components/Background";
+import Nav from "@/components/Nav";
+import Hero from "@/components/Hero";
+import Stats from "@/components/Stats";
+import Skills from "@/components/Skills";
+import Projects from "@/components/Projects";
+import Timeline from "@/components/Timeline";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+
+export default function Home() {
+  return (
+    <>
+      <Background />
+      <div className="container">
+        <Nav />
+        <Hero />
+        <Stats />
+        <Skills />
+        <Projects />
+        <Timeline />
+        <Contact />
+        <Footer />
+      </div>
+    </>
+  );
+}
