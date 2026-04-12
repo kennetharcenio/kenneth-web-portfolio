@@ -37,8 +37,10 @@ export default function Hero() {
             maxWidth: '460px',
           }}
         >
-          I build performant, accessible web experiences — from pixel-perfect UIs to scalable
-          backend systems. Turning ideas into production-ready products.
+          Senior software engineer with 12+ years building scalable microservices and
+          high-performance web applications across Angular and .NET Core. I specialize in
+          AI-augmented engineering — using LLMs, sub-agent orchestration, and workflow automation
+          to ship production-ready systems faster, with stronger code quality.
         </p>
         <div className="flex gap-3 flex-wrap">
           <a

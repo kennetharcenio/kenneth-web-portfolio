@@ -12,7 +12,7 @@ export default function Nav() {
           <a href="#skills">Skills</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
         </li>
       </ul>
       <a href="#contact" className="btn-nav">

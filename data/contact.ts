@@ -7,22 +7,27 @@ export type ContactItem = {
 export const contact: ContactItem[] = [
   {
     icon: "✉",
-    label: "kenneth.arcenio@example.com",
-    href: "mailto:kenneth.arcenio@example.com",
+    label: "arceniokas@gmail.com",
+    href: "mailto:arceniokas@gmail.com",
+  },
+  {
+    icon: "☎",
+    label: "+63 995 353 4351",
+    href: "tel:+639953534351",
+  },
+  {
+    icon: "◎",
+    label: "Quezon City, Philippines (UTC+8)",
+    href: "https://www.google.com/maps/place/Quezon+City",
   },
   {
     icon: "⌥",
     label: "GitHub",
-    href: "https://github.com/kennetharcenio",
+    href: "https://github.com/arceniokas",
   },
   {
     icon: "⬡",
     label: "LinkedIn",
-    href: "https://linkedin.com/in/kennetharcenio",
-  },
-  {
-    icon: "𝕏",
-    label: "Twitter",
-    href: "#",
+    href: "https://www.linkedin.com/in/kennetharcenio",
   },
 ];

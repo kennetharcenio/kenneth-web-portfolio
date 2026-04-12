@@ -2,16 +2,16 @@ import { experience } from "@/data/experience";
 
 export default function Timeline() {
   return (
-    <section className="mb-16">
-      <div className="font-mono text-[11px] uppercase tracking-wider text-[var(--muted)] mb-3">
+    <section id="experience" className="mb-16">
+      <div className="font-mono text-[11px] uppercase tracking-wider text-[var(--accent)] mb-3">
         // experience
       </div>
-      <h2 className="font-[family-name:var(--font-syne)] text-[28px] font-bold mb-8">
+      <h2 className="font-syne text-[32px] font-extrabold mb-8 tracking-[-1px]">
         Work History
       </h2>
-      <div>
+      <ol>
         {experience.map((item, i) => (
-          <div
+          <li
             key={i}
             className={`grid grid-cols-[120px_1fr] gap-5 py-5 ${
               i < experience.length - 1
@@ -23,7 +23,7 @@ export default function Timeline() {
               {item.years}
             </div>
             <div>
-              <div className="font-[family-name:var(--font-syne)] font-bold text-[15px] mb-[3px]">
+              <div className="font-syne font-bold text-[15px] mb-[3px]">
                 {item.role}
               </div>
               <div className="text-[13px] text-[var(--accent)] mb-1.5">
@@ -33,9 +33,9 @@ export default function Timeline() {
                 {item.description}
               </div>
             </div>
-          </div>
+          </li>
         ))}
-      </div>
+      </ol>
     </section>
   );
 }

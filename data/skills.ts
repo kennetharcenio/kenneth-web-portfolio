@@ -8,12 +8,20 @@ export interface Skill {
 }
 
 export const skills: Skill[] = [
-  { name: 'React', icon: '⚛', proficiency: 95, color: 'accent' },
-  { name: 'Next.js', icon: '▲', proficiency: 92, color: 'accent' },
+  { name: 'Angular', icon: '🅰', proficiency: 95, color: 'accent' },
+  { name: '.NET Core', icon: '🟣', proficiency: 92, color: 'accent2' },
+  { name: 'C#', icon: '♯', proficiency: 92, color: 'accent2' },
   { name: 'TypeScript', icon: '🟨', proficiency: 90, color: 'amber' },
-  { name: 'Node.js', icon: '🟢', proficiency: 85, color: 'green' },
-  { name: 'PostgreSQL', icon: '🐘', proficiency: 80, color: 'green' },
-  { name: 'Tailwind', icon: '🎨', proficiency: 92, color: 'accent2' },
-  { name: 'Docker', icon: '🐳', proficiency: 72, color: 'accent' },
-  { name: 'AWS', icon: '☁', proficiency: 70, color: 'amber' },
+  { name: 'ReactJS', icon: '⚛', proficiency: 82, color: 'accent' },
+  { name: 'Node.js', icon: '🟢', proficiency: 80, color: 'green' },
+  { name: 'REST APIs', icon: '🔌', proficiency: 92, color: 'green' },
+  { name: 'Microservices', icon: '🧩', proficiency: 88, color: 'accent' },
+  { name: 'RabbitMQ', icon: '🐇', proficiency: 75, color: 'amber' },
+  { name: 'Azure', icon: '☁', proficiency: 78, color: 'accent' },
+  { name: 'AWS', icon: '☁', proficiency: 72, color: 'amber' },
+  { name: 'Claude Code', icon: '🤝', proficiency: 90, color: 'accent2' },
+  { name: 'Prompt Engineering', icon: '✨', proficiency: 88, color: 'accent2' },
+  { name: 'n8n Automation', icon: '🔁', proficiency: 80, color: 'green' },
+  { name: 'CI/CD', icon: '⚙', proficiency: 80, color: 'green' },
+  { name: 'Agile / Scrum', icon: '🌀', proficiency: 90, color: 'amber' },
 ];

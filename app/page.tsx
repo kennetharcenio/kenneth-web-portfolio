@@ -17,9 +17,13 @@ export default function Home() {
         <Hero />
         <Stats />
         <Skills />
-        <Projects />
+        <section id="work">
+          <Projects />
+        </section>
         <Timeline />
-        <Contact />
+        <section id="contact">
+          <Contact />
+        </section>
         <Footer />
       </div>
     </>

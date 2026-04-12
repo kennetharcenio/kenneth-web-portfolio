@@ -1,7 +1,7 @@
 const stats = [
-  { num: '25+', label: 'projects shipped' },
-  { num: '4yr', label: 'experience' },
-  { num: '15+', label: 'happy clients' },
+  { num: '12+', label: 'years experience' },
+  { num: '6', label: 'projects shipped' },
+  { num: '16', label: 'tech & tools' },
 ];
 
 export default function Stats() {
