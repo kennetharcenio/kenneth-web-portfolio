@@ -51,7 +51,7 @@ export default function Hero() {
             View my work
           </a>
           <a
-            href="/cv.pdf"
+            href="/Kenneth-Audrey-Arcenio.pdf"
             download
             className="px-6 py-3 rounded-[10px] text-sm font-medium transition-all"
             style={{
