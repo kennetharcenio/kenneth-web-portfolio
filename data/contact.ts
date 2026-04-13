@@ -28,6 +28,6 @@ export const contact: ContactItem[] = [
   {
     icon: "⬡",
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/kennetharcenio",
+    href: "https://www.linkedin.com/in/kenneth-audrey-arcenio-2986aa106",
   },
 ];
