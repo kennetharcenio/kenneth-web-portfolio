@@ -67,16 +67,20 @@ export default function Hero() {
         </div>
       </div>
       <div
-        className="relative flex items-center justify-center font-syne font-extrabold text-white flex-shrink-0"
+        className="relative flex-shrink-0 overflow-hidden"
         style={{
           width: '160px',
           height: '160px',
           borderRadius: '24px',
-          background: 'linear-gradient(135deg, var(--accent), var(--accent2))',
-          fontSize: '56px',
         }}
       >
-        KA
+        <img
+          src={`${basePath}/avatar.jpg`}
+          alt="Kenneth Audrey Arcenio"
+          width={160}
+          height={160}
+          className="block h-full w-full object-cover"
+        />
         <span
           className="absolute pointer-events-none"
           style={{
