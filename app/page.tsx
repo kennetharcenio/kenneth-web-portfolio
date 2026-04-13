@@ -18,10 +18,10 @@ export default function Home() {
         <Hero />
         <Stats />
         <Skills />
+        <SideProjects />
         <section id="work">
           <Projects />
         </section>
-        <SideProjects />
         <Timeline />
         <section id="contact">
           <Contact />
