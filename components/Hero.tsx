@@ -1,3 +1,5 @@
+const basePath = process.env.NODE_ENV === 'production' ? '/kenneth-web-portfolio' : '';
+
 export default function Hero() {
   return (
     <section className="py-20 pb-16 grid grid-cols-1 md:grid-cols-[1fr_auto] gap-12 items-center">
@@ -51,7 +53,7 @@ export default function Hero() {
             View my work
           </a>
           <a
-            href="/Kenneth-Audrey-Arcenio.pdf"
+            href={`${basePath}/Kenneth-Audrey-Arcenio.pdf`}
             download
             className="btn btn-ghost px-6 py-3 rounded-[10px] text-sm font-medium transition-all"
             style={{
