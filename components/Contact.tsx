@@ -2,11 +2,11 @@ import { contact } from "@/data/contact";
 
 export default function Contact() {
   return (
-    <div className="bg-[var(--card)] border border-[var(--border)] rounded-2xl p-10 text-center mb-12">
-      <div className="font-mono text-[11px] uppercase tracking-wider text-[var(--accent)] mb-3">
+    <div className="bg-[var(--card)] border border-[var(--border)] rounded-[20px] p-10 text-center mb-12">
+      <div className="font-mono text-[11px] uppercase tracking-[2px] text-[var(--accent)] mb-4">
         // let&apos;s connect
       </div>
-      <h2 className="font-syne text-[36px] font-bold mb-3">
+      <h2 className="font-syne text-[36px] font-extrabold tracking-[-1px] mb-3">
         Open to Work
       </h2>
       <p className="text-[var(--muted)] text-[15px] mb-7">

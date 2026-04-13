@@ -3,7 +3,7 @@ import { experience } from "@/data/experience";
 export default function Timeline() {
   return (
     <section id="experience" className="mb-16">
-      <div className="font-mono text-[11px] uppercase tracking-wider text-[var(--accent)] mb-3">
+      <div className="font-mono text-[11px] uppercase tracking-[2px] text-[var(--accent)] mb-4">
         // experience
       </div>
       <h2 className="font-syne text-[32px] font-extrabold mb-8 tracking-[-1px]">
