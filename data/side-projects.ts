@@ -14,7 +14,7 @@ export const sideProjects: SideProject[] = [
   {
     title: 'Kanban Flow',
     repo: 'kennetharcenio/kanban-flow',
-    url: 'https://github.com/kennetharcenio/kanban-flow',
+    url: 'https://kennetharcenio.github.io/kanban-flow/',
     description:
       'Drag-and-drop kanban board for lightweight task management, built to explore modern React patterns and local-first state.',
     emoji: '🗂',
@@ -28,7 +28,7 @@ export const sideProjects: SideProject[] = [
   {
     title: 'Calendar App v2',
     repo: 'kennetharcenio/calendar-app-v2',
-    url: 'https://github.com/kennetharcenio/calendar-app-v2',
+    url: 'https://kennetharcenio.github.io/calendar-app-v2/',
     description:
       'Second iteration of a calendar/scheduling app with recurring events and a refined month/week view interaction model.',
     emoji: '📅',
