@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import Stats from "@/components/Stats";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
+import SideProjects from "@/components/SideProjects";
 import Timeline from "@/components/Timeline";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -20,6 +21,7 @@ export default function Home() {
         <section id="work">
           <Projects />
         </section>
+        <SideProjects />
         <Timeline />
         <section id="contact">
           <Contact />

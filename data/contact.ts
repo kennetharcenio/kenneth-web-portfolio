@@ -23,7 +23,7 @@ export const contact: ContactItem[] = [
   {
     icon: "⌥",
     label: "GitHub",
-    href: "https://github.com/arceniokas",
+    href: "https://github.com/kennetharcenio",
   },
   {
     icon: "⬡",

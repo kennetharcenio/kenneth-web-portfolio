@@ -12,6 +12,9 @@ export default function Nav() {
           <a href="#skills">Skills</a>
         </li>
         <li>
+          <a href="#side-projects">Open Source</a>
+        </li>
+        <li>
           <a href="#experience">Experience</a>
         </li>
       </ul>
