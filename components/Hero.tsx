@@ -80,6 +80,7 @@ export default function Hero() {
           width={160}
           height={160}
           className="block h-full w-full object-cover"
+          style={{ objectPosition: 'center 20%' }}
         />
         <span
           className="absolute pointer-events-none"
