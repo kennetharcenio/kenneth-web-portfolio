@@ -44,8 +44,8 @@ export default function Hero() {
         </p>
         <div className="flex gap-3 flex-wrap">
           <a
-            href="#projects"
-            className="px-6 py-3 rounded-[10px] text-sm font-medium transition-all hover:-translate-y-px hover:opacity-90"
+            href="#work"
+            className="btn btn-primary px-6 py-3 rounded-[10px] text-sm font-medium transition-all"
             style={{ background: 'var(--accent)', color: '#fff' }}
           >
             View my work
@@ -53,7 +53,7 @@ export default function Hero() {
           <a
             href="/Kenneth-Audrey-Arcenio.pdf"
             download
-            className="px-6 py-3 rounded-[10px] text-sm font-medium transition-all"
+            className="btn btn-ghost px-6 py-3 rounded-[10px] text-sm font-medium transition-all"
             style={{
               background: 'transparent',
               color: 'var(--text)',
